@@ -1,0 +1,55 @@
+html {
+	font-size: 14px;
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	color: $black;
+}
+[class*='__container'] {
+	max-width: 1540px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+::-webkit-scrollbar {
+	width: 12px;
+	height: 10px;
+}
+::-webkit-scrollbar-track {
+	background: $white;
+}
+::-webkit-scrollbar-thumb {
+	background: $orange;
+	border-radius: 10px;
+}
+svg {
+	width: 100%;
+	height: 100%;
+}
+.no-scroll {
+	overflow: hidden;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+	line-height: 1.3;
+}
+
+h1 {
+	font-size: 2.5rem;
+}
+h2 {
+	font-size: 2rem;
+}
+h3 {
+	font-size: 1.75rem;
+}
+h4 {
+	font-size: 1.5rem;
+}
+h5 {
+	font-size: 1.125rem;
+}
+p {
+	font-size: 0.9375rem;
+	line-height: 1.5;
+}
